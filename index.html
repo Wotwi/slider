@@ -9,29 +9,70 @@
 
     <link rel="stylesheet" href="src/styles/normalize.css">
     <link rel="stylesheet" href="src/styles/styles.css">
+    
+    <style>
+        
+        .container, .item {
+            border: 1px solid lightblue;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .container{
+            width: 300px;
+        }
+        
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+        }
+        
+        .item:last-child{
+            background-color: yellowgreen;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+    </style>
+
 </head>
 <body>
 
-<div class="slider">
+<!--<div class="slider">-->
+<!--        <div class="slider__slides">-->
+<!--            <div class="slider__slide slide">-->
+<!--                <div class="slide__cover">-->
+<!--                    <h2 class="slide__hdl">Lorem ipsum.</h2>-->
+<!--                    <p class="slide__text">Lorem ipsum dolor sit amet, consectetur.</p>-->
+<!--                    <a href="" class="slide__link">Read more</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="slider__slide slide">-->
+<!--                <div class="slide__cover">-->
+<!--                    <h2 class="slide__hdl">Lorem ipsum.</h2>-->
+<!--                    <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, maxime!</p>-->
+<!--                    <a href="" class="slide__link">Read more</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="slider__slide slide">-->
+<!--                <div class="slide__cover">-->
+<!--                    <h2 class="slide__hdl">Lorem ipsum.</h2>-->
+<!--                    <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
+<!--                    <a href="" class="slide__link">Read more</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <nav class="slider__nav nav">-->
+<!--            <button class="nav__btn"></button>-->
+<!--            <button class="nav__btn"></button>-->
+<!--        </nav>-->
+<!--    </div>-->
 
-    <div class="slider__slides">
-        <div class="slider__slide slide">
-            <h2 class="slide__hdl">Lorem ipsum dolor.</h2>
-            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <a href="" class="slide__link">Read more</a></div>
-        <div class="slider__slide slide">
-            <h2 class="slide__hdl">Lorem ipsum.</h2>
-            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis!</p>
-            <a href="" class="slide__link">Read more</a></div>
-        <div class="slider__slide slide">
-            <h2 class="slide__hdl">Lorem ipsum.</h2>
-            <p class="slide__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, distinctio.</p>
-            <a href="" class="slide__link">Read more</a></div>
-    </div>
-    <nav class="slider_nav nav">
-        <button class="nav_btn">Prev</button>
-        <button class="nav_btn nav__btn--next">Next</button>
-    </nav>
+<div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
 </div>
 
 </body>
